@@ -1,6 +1,6 @@
 <?php
   if(isset($_POST['tambah'])){
-    include_once 'koneksi.php';
+    include 'koneksi.php';
 
     $nim = $_POST['nim'];
     $nama = $_POST['nama'];
